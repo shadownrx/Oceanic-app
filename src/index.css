@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark .border {
+  @apply border-gray-700;
+}
+
+.dark input, .dark select {
+  @apply bg-gray-700 text-white;
+}
+
+.dark .rbc-calendar {
+  @apply bg-gray-800 text-white;
+}
+
+.dark .rbc-toolbar button {
+  @apply bg-gray-700 text-white;
+}
+
+.dark .rbc-month-view, .dark .rbc-time-view {
+  @apply border-gray-700;
+}
+
+.dark .rbc-day-bg + .rbc-day-bg, .dark .rbc-month-row + .rbc-month-row {
+  @apply border-gray-700;
+}
+
+.dark .rbc-off-range-bg {
+  @apply bg-gray-900;
+}
+
+.dark .rbc-today {
+  @apply bg-blue-900;
+}
